@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Conn_01x06
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP ZVNL110A
+D 100V Vds, 320mA Id, N-Channel MOSFET, TO-92-3, Cut tape
+K N-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ZVNL110A.pdf
+$ENDCMP
+#
+#End Doc Library
