@@ -175,14 +175,13 @@ X ~EN 9 -400 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MCU_Microchip_ATtiny_ATtiny84-20PU
+# StepperServo-rescue_ATtiny84-20PU-MCU_Microchip_ATtiny
 #
-DEF MCU_Microchip_ATtiny_ATtiny84-20PU U 0 20 Y Y 1 F N
+DEF StepperServo-rescue_ATtiny84-20PU-MCU_Microchip_ATtiny U 0 20 Y Y 1 F N
 F0 "U" -500 850 50 H V L BNN
-F1 "MCU_Microchip_ATtiny_ATtiny84-20PU" 100 -850 50 H V L TNN
+F1 "StepperServo-rescue_ATtiny84-20PU-MCU_Microchip_ATtiny" 100 -850 50 H V L TNN
 F2 "Package_DIP:DIP-14_W7.62mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS ATtiny24-20PU ATtiny24A-PU ATtiny44V-10PU ATtiny44-20PU ATtiny44A-PU ATtiny84V-10PU ATtiny84-20PU ATtiny84A-PU
 $FPLIST
  DIP*W7.62mm*
 $ENDFPLIST

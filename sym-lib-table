@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name StepperServo)(type Legacy)(uri ${KIPRJMOD}/StepperServo.lib)(options "")(descr ""))
+  (lib (name StepperServo-rescue)(type Legacy)(uri ${KIPRJMOD}/StepperServo-rescue.lib)(options "")(descr ""))
 )
