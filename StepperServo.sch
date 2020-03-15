@@ -184,7 +184,7 @@ U 1 1 5E6D78FF
 P 2100 4450
 F 0 "R2" H 2170 4496 50  0000 L CNN
 F 1 "10K" H 2170 4405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2030 4450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2030 4450 50  0001 C CNN
 F 3 "~" H 2100 4450 50  0001 C CNN
 	1    2100 4450
 	1    0    0    -1  
@@ -195,7 +195,7 @@ U 1 1 5E6D8657
 P 2900 4450
 F 0 "R4" H 2970 4496 50  0000 L CNN
 F 1 "10K" H 2970 4405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2830 4450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2830 4450 50  0001 C CNN
 F 3 "~" H 2900 4450 50  0001 C CNN
 	1    2900 4450
 	1    0    0    -1  
@@ -256,7 +256,7 @@ U 1 1 5E6EF0D1
 P 2050 5550
 F 0 "R1" H 2120 5596 50  0000 L CNN
 F 1 "10K" H 2120 5505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1980 5550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1980 5550 50  0001 C CNN
 F 3 "~" H 2050 5550 50  0001 C CNN
 	1    2050 5550
 	1    0    0    -1  
@@ -267,7 +267,7 @@ U 1 1 5E6EF0D7
 P 2850 5550
 F 0 "R3" H 2920 5596 50  0000 L CNN
 F 1 "10K" H 2920 5505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2780 5550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2780 5550 50  0001 C CNN
 F 3 "~" H 2850 5550 50  0001 C CNN
 	1    2850 5550
 	1    0    0    -1  
@@ -454,12 +454,12 @@ Wire Wire Line
 Wire Wire Line
 	6600 4450 9100 4450
 $Comp
-L Connector_Generic:Conn_02x03_Row_Letter_First J2
+L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 5E716C25
 P 7100 3150
 F 0 "J2" H 7150 3467 50  0000 C CNN
 F 1 "Microstep" H 7150 3376 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 7100 3150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7100 3150 50  0001 C CNN
 F 3 "~" H 7100 3150 50  0001 C CNN
 	1    7100 3150
 	1    0    0    -1  
@@ -546,99 +546,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 2650 6900 3050
 Connection ~ 6900 3050
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5E76150C
-P 7500 1650
-F 0 "TP7" H 7558 1768 50  0000 L CNN
-F 1 "~FLT" H 7558 1677 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 7700 1650 50  0001 C CNN
-F 3 "~" H 7700 1650 50  0001 C CNN
-	1    7500 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 1650 7500 2250
-Wire Wire Line
-	7500 2250 7650 2250
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5E768EE0
-P 5050 2250
-F 0 "TP1" V 5004 2438 50  0000 L CNN
-F 1 "PA2" V 5095 2438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5250 2250 50  0001 C CNN
-F 3 "~" H 5250 2250 50  0001 C CNN
-	1    5050 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5E76A93A
-P 5350 2350
-F 0 "TP5" V 5304 2538 50  0000 L CNN
-F 1 "PA3" V 5395 2538 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5550 2350 50  0001 C CNN
-F 3 "~" H 5550 2350 50  0001 C CNN
-	1    5350 2350
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5E78DF8E
-P 5050 2550
-F 0 "TP2" V 5004 2738 50  0000 L CNN
-F 1 "PA5" V 5095 2738 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5250 2550 50  0001 C CNN
-F 3 "~" H 5250 2550 50  0001 C CNN
-	1    5050 2550
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5E78E3A2
-P 5050 2750
-F 0 "TP3" V 5004 2938 50  0000 L CNN
-F 1 "PA7" V 5095 2938 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5250 2750 50  0001 C CNN
-F 3 "~" H 5250 2750 50  0001 C CNN
-	1    5050 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 5E791778
-P 5050 3150
-F 0 "TP4" V 5004 3338 50  0000 L CNN
-F 1 "PB2" V 5095 3338 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5250 3150 50  0001 C CNN
-F 3 "~" H 5250 3150 50  0001 C CNN
-	1    5050 3150
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5E791B08
-P 5350 3250
-F 0 "TP6" V 5304 3438 50  0000 L CNN
-F 1 "PB3" V 5395 3438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5550 3250 50  0001 C CNN
-F 3 "~" H 5550 3250 50  0001 C CNN
-	1    5350 3250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5350 3250 4950 3250
-Wire Wire Line
-	5050 3150 4950 3150
-Wire Wire Line
-	5050 2750 4950 2750
-Wire Wire Line
-	5050 2550 4950 2550
-Wire Wire Line
-	5350 2350 4950 2350
-Wire Wire Line
-	5050 2250 4950 2250
 Wire Wire Line
 	4350 1750 4350 1650
 Wire Wire Line
@@ -656,4 +563,11 @@ Wire Wire Line
 	4350 3650 2850 3650
 Connection ~ 4350 3650
 Connection ~ 2850 3650
+NoConn ~ 7650 2250
+NoConn ~ 4950 2750
+NoConn ~ 4950 2550
+NoConn ~ 4950 2350
+NoConn ~ 4950 2250
+NoConn ~ 4950 3150
+NoConn ~ 4950 3250
 $EndSCHEMATC

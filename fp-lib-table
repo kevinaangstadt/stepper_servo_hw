@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name StepperServo)(type KiCad)(uri ${KIPRJMOD}/StepperServo.pretty)(options "")(descr ""))
+)
